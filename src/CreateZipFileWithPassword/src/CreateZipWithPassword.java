@@ -26,23 +26,6 @@ public class CreateZipWithPassword {
   }
 
   /**
-   * [main メイン処理部]
-   * @method main
-   * @param  args                     	[可変長引数]
-   * @throws IOException
-   * @throws ZipException
-   */
-  public static void main(String args[]) throws ZipException, IOException {
-
-	  // 実行ファイルにする場合のみmain部の実装が必要
-	  if (args.length > 3) {
-		  zip(args[0], args[1], args[2], args[3]);
-	  } else {
-		  zip(args[0], args[1], args[2]);
-	  }
-  }
-
-  /**
    * [zip パスワード付きzipを作成するメソッド]
    * @method main
    * @param  input                     	[zip化するファイル]
