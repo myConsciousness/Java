@@ -28,13 +28,13 @@ public class CreateZipWithPassword {
   /**
    * [zip パスワード付きzipを作成するメソッド]
    * @method main
-   * @param  input                     	[zip化するファイル]
-   * @param  output                    	[出力名]
-   * @param  password                   [パスワード]
-   * @param  fileNameCharset            [ファイル名の文字コード]
-   * @throws ZipException               [ZipException]
-   * @throws IOException                [IOException]
-   * @throws ZipException				[ZipException]
+   * @param  input	[zip化するファイル]
+   * @param  output	[出力名]
+   * @param  password	[パスワード]
+   * @param  fileNameCharset	[ファイル名の文字コード]
+   * @throws ZipException	[ZipException]
+   * @throws IOException	[IOException]
+   * @throws ZipException	[ZipException]
    */
   public static void zip(String input, String output, String password)
 	        throws ZipException, IOException, ZipException {
@@ -44,13 +44,13 @@ public class CreateZipWithPassword {
   /**
    * [zip パスワード付きzipを作成するメソッド]
    * @method main
-   * @param  input                     	[zip化するファイル]
-   * @param  output                    	[出力名]
-   * @param  password                   [パスワード]
-   * @param  fileNameCharset            [ファイル名の文字コード]
-   * @throws ZipException               [ZipException]
-   * @throws IOException                [IOException]
-   * @throws ZipException				[ZipException]
+   * @param  input	[zip化するファイル]
+   * @param  output	[出力名]
+   * @param  password	[パスワード]
+   * @param  fileNameCharset	[ファイル名の文字コード]
+   * @throws ZipException	[ZipException]
+   * @throws IOException	[IOException]
+   * @throws ZipException	[ZipException]
    */
   public static void zip(String input, String output, String password, String fileNameCharset)
 	        throws ZipException, IOException, ZipException {
